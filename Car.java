@@ -23,3 +23,6 @@ public class Car {
         return ("No of wheels are: " + wheels + ",\t serviceneeded of Car is: " + serviceneeded);
     }
 }
+//Error: Main method not found in class Car, please define the main method as:
+//   public static void main(String[] args)
+//or a JavaFX application class must extend javafx.application.Application
