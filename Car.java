@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Car {
     public short wheels;
     public short doors;
@@ -11,6 +12,9 @@ public class Car {
         this.serviceneeded = 0; // Initialize serviceneeded
     }
 
+    public Car() {
+    }
+
     public void TirePressure(int decrement) {
         serviceneeded += decrement;
     }
@@ -20,7 +24,7 @@ public class Car {
     }
 
     public String toString() {
-        return ("No of wheels are: " + wheels + ",\t serviceneeded of Car is: " + serviceneeded);
+        return "Power =" + this.power + "\tDoors =" + this.doors + "\tWheels =" + this.wheels;
     }
 }
 //Error: Main method not found in class Car, please define the main method as:
