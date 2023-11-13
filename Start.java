@@ -6,7 +6,6 @@ public class Start {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter car data");
         System.out.println("Power");
-        int power = scanner.nextInt();
         System.out.println("Wheels");
         short wheels = (short) scanner.nextInt();
         System.out.println("Doors");
