@@ -1,5 +1,3 @@
-package com.papanaga.ilie.absraction;
-
 public class Encapsulation {
     private class Human {
         private String name;
