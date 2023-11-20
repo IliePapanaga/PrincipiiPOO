@@ -1,3 +1,5 @@
+package com.papanaga.ilie.study;
+
 import java.util.Scanner;
 
 public class Start {
@@ -15,7 +17,7 @@ public class Start {
             System.out.println("A car");
 
             if (doors==2) {
-                System.out.println("Coupe");
+                System.out.println("com.papanaga.ilie.study.Coupe");
             }
         }
     }

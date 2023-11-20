@@ -1,3 +1,5 @@
+package com.papanaga.ilie.study;
+
 import java.util.Scanner;
 
 public class Array {

@@ -1,3 +1,5 @@
+package com.papanaga.ilie.study;
+
 import java.util.Scanner;
 public class Car {
     public short wheels;
@@ -27,6 +29,6 @@ public class Car {
         return "Power =" + this.power + "\tDoors =" + this.doors + "\tWheels =" + this.wheels;
     }
 }
-//Error: Main method not found in class Car, please define the main method as:
+//Error: Main method not found in class com.papanaga.ilie.study.Car, please define the main method as:
 //   public static void main(String[] args)
 //or a JavaFX application class must extend javafx.application.Application

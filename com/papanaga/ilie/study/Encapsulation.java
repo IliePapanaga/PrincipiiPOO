@@ -1,3 +1,5 @@
+package com.papanaga.ilie.study;
+
 public class Encapsulation {
     private class Human {
         private String name;
