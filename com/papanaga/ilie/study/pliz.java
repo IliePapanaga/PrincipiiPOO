@@ -24,7 +24,7 @@ public class pliz {
                 }
                 break;
             } else if (afirm == 2) {
-                System.out.println("Ai afighit!?!?" + "\n");
+                System.out.println("!?!?" + "\n");
             } else {
                 System.out.println("Don't try to fool me"+ "\n");
             }
